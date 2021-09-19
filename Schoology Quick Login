@@ -1,0 +1,9 @@
+window.location.href="https://launchpad.classlink.com/cfisd" ;
+onload = alert(1);
+var userText = document.getElementById('username');
+
+userText.value = "foo";
+var passText = document.getElementById('password');
+passText.value = "bar";
+var submit = document.getElementById('signin');
+submit.click();
