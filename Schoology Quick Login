@@ -1,28 +1,12 @@
+function myFunction(){
 window.location.href="https://launchpad.classlink.com/cfisd" ;
-onload = alert(1);
-var userText = document.getElementsByName("username");
-userText[0].value = "foo";
+var userText = document.getElementById('username');
+userText.value = "foo";
 var passText = document.getElementById('password');
 passText.value = "bar";
 var submit = document.getElementById('signin');
-submit.click();
+submit.click();};
+myFunction();
 
 
 
-
-
-
-var text_to_be_inserted = "sample";
-function onCLickButton(){
-    document.getElementById("textbox_1").value='';
-    document.getElementById("textbox_2").value='';
-    if(document.getElementById("textbox_1").focused){
-        document.getElementById("textbox_1").value=text_to_be_inserted;
-    }
-    else if(document.getElementById("textbox_2").focused){
-        document.getElementById("textbox_2").value=text_to_be_inserted;
-    }
-    else{
-        // do nothing
-    }
-}
